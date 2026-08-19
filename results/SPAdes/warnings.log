@@ -1,0 +1,5 @@
+
+=== Error correction and assembling warnings:
+ * 0:06:47.064   746M / 2303M WARN    General                 (kmer_coverage_model.cpp   : 218)   Too many erroneous kmers, the estimates might be unreliable
+ * 0:12:06.981   925M / 2890M WARN    General                 (pair_info_count.cpp       : 376)   Estimated mean insert size 133.065 is very small compared to read length 151
+======= Warnings saved to /mnt/d/wgs_3/spades_phagekp/warnings.log
