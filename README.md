@@ -144,12 +144,21 @@ This study demonstrated the application of a complete bioinformatics workflow fo
 
 ## Repository Structure
 
-The repository will be organized to document the major stages of the bacteriophage whole-genome sequencing and bioinformatics analysis.
+The repository is organized to document the major stages of the bacteriophage whole-genome sequencing and bioinformatics analysis.
 
 - `README.md` — Project overview, workflow, results, and conclusions.
 - `results/` — Important analysis results and output files.
-- `figures/` — Genome visualization and phylogenetic analysis figures.
-- `scripts/` — Analysis commands or scripts used during the workflow.
+
+The `results/` directory contains outputs from the major analysis steps:
+
+- `FastQC/` — Quality assessment of raw and trimmed sequencing reads.
+- `SPAdes/` — Genome assembly results.
+- `QUAST/` — Assembly quality assessment and contig statistics.
+- `CheckV/` — Viral genome quality, completeness, and contamination assessment.
+- `Prokka/` — Genome annotation outputs.
+- `Pharokka/` — Phage-specific genome annotation outputs.
+- `Proksee/` — Circular genome visualization.
+- `ViPTree/` — Whole-genome phylogenetic analysis.
 
 Raw sequencing data are not included in this repository because of their large file size and data-sharing considerations.
 
