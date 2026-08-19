@@ -1,0 +1,23 @@
+Assembly	phage_filtered_contigs
+# contigs (>= 0 bp)	103
+# contigs (>= 1000 bp)	103
+# contigs (>= 5000 bp)	103
+# contigs (>= 10000 bp)	0
+# contigs (>= 25000 bp)	0
+# contigs (>= 50000 bp)	0
+Total length (>= 0 bp)	605736
+Total length (>= 1000 bp)	605736
+Total length (>= 5000 bp)	605736
+Total length (>= 10000 bp)	0
+Total length (>= 25000 bp)	0
+Total length (>= 50000 bp)	0
+# contigs	103
+Largest contig	8787
+Total length	605736
+GC (%)	47.00
+N50	5686
+N90	5103
+auN	6007.1
+L50	46
+L90	92
+# N's per 100 kbp	0.00
