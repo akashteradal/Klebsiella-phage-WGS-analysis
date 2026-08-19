@@ -1,0 +1,3 @@
+# QUAST After Filtering
+
+QUAST results generated from the filtered genome assembly (contigs ≥5 kb).
